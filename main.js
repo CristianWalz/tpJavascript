@@ -1,6 +1,6 @@
 //Algoritmo con un condicional 
 
-/* let numero = prompt("Ingrese su edad")
+ let numero = prompt("Ingrese su edad")
 numero = parseInt(numero)
 
 let ninio = 17
@@ -13,23 +13,23 @@ if (numero <= ninio) {
 }else if (numero >= adulto && numero < 60) {
     console.log("Usted es un adulto")
 }else
-    console.log("Usted es un anciano") */
+    console.log("Usted es un anciano") 
 
 
 //Crear un algoritmo utilizando un ciclo.
 
-/* let x = 0
+ let x = 0
 
 while (x < 4 ) {
     console.log("Ahora x vale " + x)
     x = x + 1
     alert("x vale " + x )
-} */
+} 
 
 // Armar un simulador interactivo, la estructura final de tu proyecto integrador
 
 
-/* let hincha = "river"
+ let hincha = "river"
 let hinchaDos = "boca"
 let hinchaTres = "independiente"
 
@@ -45,4 +45,20 @@ if (nombreHincha === hincha.toLocaleLowerCase()) { //-- Al final de .toLocaleLow
 }else {
     alert("Respuesta incorrecta")
 }  
- */
+ 
+
+// Uso de function 
+
+ let saludar = function(nombre) {
+    console.log("Hola " + nombre)
+    console.log("Chau " + nombre)
+}
+saludar("Cristian")
+saludar("Matias") 
+
+ function suma (a , b) {
+    return a + b
+}
+let resultado = suma(10 , 5)
+console.log(resultado) 
+
